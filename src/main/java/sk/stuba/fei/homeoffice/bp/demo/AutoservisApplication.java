@@ -8,11 +8,11 @@ import org.springframework.stereotype.Controller;
 @Slf4j
 @Controller
 @SpringBootApplication
-public class DemoApplication {
+public class AutoservisApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(AutoservisApplication.class, args);
         log.info("Open in browser: http://localhost:8080");
     }
 

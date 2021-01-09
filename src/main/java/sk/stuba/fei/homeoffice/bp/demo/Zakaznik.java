@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Zakaznik {
 
-    private int idenetifikator;
+    private int identifikator;
     private String meno;
 }

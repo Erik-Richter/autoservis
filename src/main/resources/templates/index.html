@@ -5,6 +5,13 @@
     <title>zakaznici</title>
 </head>
 <body>
+<style>
+    body{
+        background-color: beige;
+    }
+</style>
+
+<h1>Zoznam zákazníkov</h1>
 <table>
     <thead>
     <tr>
@@ -14,7 +21,7 @@
     </thead>
     <tbody>
     <tr th:each="zakaznik: ${zakaznici}">
-        <td th:text="${zakaznik.idenetifikator}"></td>
+        <td th:text="${zakaznik.getIdentifikator}"></td>
         <!--/*@thymesVar id="osobneUdaje" type="sk"*/-->
         <td th:text="${zakaznik.meno}"></td>
     </tbody>

@@ -5,13 +5,19 @@
     <title>autoservis</title>
 </head>
 <body>
+<style>
+    body{
+        background-color: beige;
+    }
+</style>
+<h1>Registrácia</h1>
 <!--/*@thymesVar id="zakaznik" type="bla"*/-->
 <form th:action="@{/novyZakaznik}" th:object="${zakaznik}" method="post">
 
 
 
     <label for="number">Váš unikátny identifikátor: </label>
-    <input readonly type="number" id="number" th:field="*{idenetifikator}"/>
+    <input readonly type="number" id="number" th:field="*{getIdentifikator}"/>
     <br>
 
     <label for="name">Meno*</label>

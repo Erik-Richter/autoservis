@@ -26,7 +26,7 @@ public class ZakaznikController{
     public String index(Model model) {
         Zakaznik zakaznik = new Zakaznik();
         model.addAttribute("zakaznik", zakaznik);
-        zakaznik.setIdenetifikator(zakaznici.size());
+        zakaznik.setIdentifikator(zakaznici.size());
         return "novyZakaznik";
     }
 
