@@ -43,6 +43,11 @@
     <input required oninvalid="this.setCustomValidity('Meno nesmie byť prázdne.Zadaj znova')" onchange="this.setCustomValidity('')" type="text" id="priezvisko" th:field="*{priezvisko}"/>
     <td th:if="${#fields.hasErrors('priezvisko')}" th:errors="*{priezvisko}">
         Name Error</td>
+    <br>
+    <label for="email">E-mail*</label>
+    <input required oninvalid="this.setCustomValidity('Meno nesmie byť prázdne.Zadaj znova')" onchange="this.setCustomValidity('')" type="text" id="email" th:field="*{email}"/>
+    <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">
+        Name Error</td>
 <div></div>
 
 

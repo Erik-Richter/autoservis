@@ -21,4 +21,6 @@ public class Vozidlo {
     private String znackaVozidla;
     @Column(name = "typ_vozidla")
     private String typVozidla;
+    @Column(name = "vin_cislo")
+    private String vinCislo;
 }

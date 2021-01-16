@@ -21,4 +21,6 @@ public class Zakaznik {
     private String meno;
     @Column(name = "priezvisko")
     private String priezvisko;
+    @Column(name = "email")
+    private String email;
 }
